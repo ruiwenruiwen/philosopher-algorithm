@@ -174,9 +174,9 @@ dining.main = function() {
 	console.log('能吃上意大利面的是： ' + final);
 	console.log('正在等待的是： ' + waiting);
 	dining.eat(final);
-	dining.timeOut(eating, waiting, '谢天谢地，终于轮到我了', 10000);
+	dining.timeOut(eating, waiting, '谢天谢地，终于轮到我了', 4000);
 	console.log(waiting);
-	dining.timeOut(waiting, [], '', 20000);
+	dining.timeOut(waiting, [], '', 8000);
 }
 
 btn.addEventListener('click', dining.main);
