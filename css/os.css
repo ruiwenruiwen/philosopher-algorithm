@@ -1,0 +1,133 @@
+/*os.css*/
+
+.main-con {
+	position: relative;
+	margin: 20px auto 0 auto;
+	text-align: center;
+	min-width: 1100px;
+	overflow-x: auto;
+}
+
+.words-con {
+	position: relative;
+	display: inline-block;
+	padding: 1rem;
+	max-width: 200px;
+	letter-spacing: 1px;
+	word-break: break-all;
+	border-radius: 20px;
+	box-shadow: 2px 2px 4px #bbb;
+	border: 3px #f45460 dashed;
+}
+
+.top-words {
+	margin-bottom: 10px;
+}
+
+.top-words::after {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 3.4rem;
+	left: 100px;
+	border-left: 9px solid transparent;
+	border-top: 9px #f45460 solid;
+	border-right: 9px solid transparent;
+}
+
+.middle-con {
+	margin: 0 auto;
+}
+
+.left-words {
+	vertical-align: middle;
+}
+
+.left-words::after {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: 1.2rem;
+	left: 220px;
+	border-top: 9px solid transparent;
+	border-left: 9px #f45460 solid;
+	border-bottom: 9px solid transparent;
+}
+
+.right-words {
+	vertical-align: middle;
+}
+
+.right-words::before {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: 1.2rem;
+	right: 220px;
+	border-top: 9px solid transparent;
+	border-right: 9px #f45460 solid;
+	border-bottom: 9px solid transparent;
+}
+
+.pic-con {
+	position: relative;
+	display: inline-block;
+}
+
+.table-pic {
+	vertical-align: middle;
+	margin: 0 20px;
+	width: 500px;
+	height: 500px;
+}
+
+.click-btn {
+	cursor: pointer;
+	position: absolute;
+	top: 218px;
+	left: 218px;
+	width: 100px;
+	height: 100px;
+	outline: none;
+	border-radius: 50px;
+	border: solid #000 1px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 100px;
+	letter-spacing: 2px;
+}
+
+.bottom-con {
+	margin-top: 20px;
+}
+
+.left-bottom-words {
+	margin-right: 50px;
+}
+
+.left-bottom-words::after {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: 3.3rem;
+	left: 100px;
+	border-left: 9px solid transparent;
+	border-bottom: 9px #f45460 solid;
+	border-right: 9px solid transparent;
+}
+
+.right-bottom-words::after {
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: 3.3rem;
+	left: 100px;
+	border-left: 9px solid transparent;
+	border-bottom: 9px #f45460 solid;
+	border-right: 9px solid transparent;
+}
